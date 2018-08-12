@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\framework">
+      <UniqueIdentifier>{0160683c-f6f3-4631-b524-3bb7feeab6a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework">
+      <UniqueIdentifier>{792c520c-44f5-4672-aa71-7d12af581b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HelloWorld">
+      <UniqueIdentifier>{b3e9ee2b-22af-4d63-8a8b-123af4b4e680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HelloWorld">
+      <UniqueIdentifier>{93e1fd1e-efbb-40aa-9bdc-0d97c497bd15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Affectors">
+      <UniqueIdentifier>{38a58368-b151-4272-ba25-ad18db37e6df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Affectors">
+      <UniqueIdentifier>{830e2bab-91a5-4d76-8ecf-2460b32fd3eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Character">
+      <UniqueIdentifier>{d990b6cc-6b27-4ab2-8b82-1afd5b013449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character">
+      <UniqueIdentifier>{4f1786d9-8e5d-4744-8935-8715ec9cf921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Collision">
+      <UniqueIdentifier>{e726e2c1-f295-49a0-a006-7640098e0c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision">
+      <UniqueIdentifier>{b5fc4577-e3ae-4038-be9c-cc73a769d1ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LiquidBody">
+      <UniqueIdentifier>{e7bccc30-cc48-486b-8245-331bb2817df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LiquidBody">
+      <UniqueIdentifier>{f2ba0b38-4bf1-4a65-bb16-f9a98fe3a917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LoadScene">
+      <UniqueIdentifier>{f31b6a8d-ae0a-4862-8f12-1929d67d63b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LoadScene">
+      <UniqueIdentifier>{70ca02b5-bc5e-4c86-b0aa-3f11b0024eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RaycastTank">
+      <UniqueIdentifier>{39155c1f-f7a3-4611-9b9b-81b9b8fde37c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RaycastTank">
+      <UniqueIdentifier>{4db6d6c6-acb8-434a-a01e-903837628fbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SoftBody">
+      <UniqueIdentifier>{b7f358b3-7af6-4c7b-adc1-2fe0d83bb77f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SoftBody">
+      <UniqueIdentifier>{664c51b3-d7c0-4c05-931a-289873b7fd6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="exampleframework.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="helloworldexample.h">
+      <Filter>Header Files\HelloWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="affectorsexample.h">
+      <Filter>Header Files\Affectors</Filter>
+    </ClInclude>
+    <ClInclude Include="characterexample.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="collisionexample.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="liquidbodyexample.h">
+      <Filter>Header Files\LiquidBody</Filter>
+    </ClInclude>
+    <ClInclude Include="loadsceneexample.h">
+      <Filter>Header Files\LoadScene</Filter>
+    </ClInclude>
+    <ClInclude Include="raycasttankexample.h">
+      <Filter>Header Files\RaycastTank</Filter>
+    </ClInclude>
+    <ClInclude Include="softbodyexample.h">
+      <Filter>Header Files\SoftBody</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="exampleframework.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="helloworldexample.cpp">
+      <Filter>Source Files\HelloWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="affectorsexample.cpp">
+      <Filter>Source Files\Affectors</Filter>
+    </ClCompile>
+    <ClCompile Include="characterexample.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="collisionexample.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="liquidbodyexample.cpp">
+      <Filter>Source Files\LiquidBody</Filter>
+    </ClCompile>
+    <ClCompile Include="loadsceneexample.cpp">
+      <Filter>Source Files\LoadScene</Filter>
+    </ClCompile>
+    <ClCompile Include="raycasttankexample.cpp">
+      <Filter>Source Files\RaycastTank</Filter>
+    </ClCompile>
+    <ClCompile Include="softbodyexample.cpp">
+      <Filter>Source Files\SoftBody</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
